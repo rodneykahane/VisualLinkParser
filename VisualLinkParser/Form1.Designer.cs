@@ -106,7 +106,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(441, 297);
+            this.ClientSize = new System.Drawing.Size(441, 281);
             this.Controls.Add(this.BtnExit);
             this.Controls.Add(this.BtnClear);
             this.Controls.Add(this.BtnRun);
@@ -114,8 +114,9 @@
             this.Controls.Add(this.LblDisplay);
             this.Controls.Add(this.TxtAddress);
             this.Controls.Add(this.LblAddress);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Visual Link Parser";
             this.ResumeLayout(false);
             this.PerformLayout();
 
